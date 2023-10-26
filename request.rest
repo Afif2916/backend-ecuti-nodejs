@@ -1,0 +1,28 @@
+POST http://localhost:5000/users
+Content-Type: : application/x-www-form-urlencoded
+
+{
+   
+    "name": "Afif Bangkit Nur Rahmaan",
+    "email": "afif2916@gmail.com",
+    "password": "12345",
+    "confPassword": "151515",
+    "role": "admin",
+    "jatah_cuti": "12"
+}
+
+###
+// get users
+GET http://localhost:5000/users
+
+Content-Type: : application/json
+
+###
+GET http://localhost:5000/users/6e3eb333-1018-4b48-b0c6-0861b6e3d515
+
+Content-Type: : application/json
+
+###
+GET http://localhost:5000/cuti
+
+Content-Type: : application/json
